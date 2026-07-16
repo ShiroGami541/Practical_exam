@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>India Cloud Weather Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>☁ India Cloud Weather Dashboard</h1>
+
+<div class="search">
+
+<input type="text" id="city" placeholder="Enter Indian City">
+
+<button onclick="searchCity()">Search</button>
+
+</div>
+
+<div class="card">
+
+<h2 id="cityName">City</h2>
+
+<h1 id="temp">--°C</h1>
+
+<h3 id="condition">Weather</h3>
+
+<p>💧 Humidity :
+<span id="humidity">--</span>%</p>
+
+<p>💨 Wind :
+<span id="wind">--</span> km/h</p>
+
+<p>📅 Time :
+<span id="time">--</span></p>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
